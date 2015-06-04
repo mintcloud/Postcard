@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         
-        mailButton.backgroundColor = UIColor.purpleColor()
+        mailButton.backgroundColor = UIColor.orangeColor()
         mailButton.setTitle("Mail Sent", forState: UIControlState.Disabled)
     }
 
