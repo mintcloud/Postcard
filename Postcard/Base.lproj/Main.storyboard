@@ -98,10 +98,28 @@
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ih-CH-eNY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="334" height="106"/>
+                                    <rect key="frame" x="16" y="93" width="334" height="60"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otr-xB-pjc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="40" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fw5-D1-b75">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="74" y="72" width="276" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -113,6 +131,8 @@
                                 <exclude reference="pk2-xG-m3A"/>
                                 <exclude reference="7nZ-oU-vid"/>
                                 <exclude reference="8ih-CH-eNY"/>
+                                <exclude reference="otr-xB-pjc"/>
+                                <exclude reference="fw5-D1-b75"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +142,8 @@
                                 <include reference="pk2-xG-m3A"/>
                                 <include reference="7nZ-oU-vid"/>
                                 <include reference="8ih-CH-eNY"/>
+                                <include reference="otr-xB-pjc"/>
+                                <include reference="fw5-D1-b75"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +152,7 @@
                         <outlet property="enterNameTextField" destination="icD-E7-Gb9" id="P38-sf-qZW"/>
                         <outlet property="mailButton" destination="7nZ-oU-vid" id="AHL-Fz-GDa"/>
                         <outlet property="messageLabel" destination="8ih-CH-eNY" id="A5a-8W-ZrI"/>
+                        <outlet property="nameLabel" destination="fw5-D1-b75" id="kGH-TU-oXl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
